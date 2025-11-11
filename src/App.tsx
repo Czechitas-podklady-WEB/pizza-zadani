@@ -1,5 +1,5 @@
 import ToppingsSelect from './components/ToppingsSelect';
-import ITopping from './models/Topping';
+import type {ITopping} from './models/Topping';
 import './style.css';
 
 const toppings: ITopping[] = [
@@ -77,7 +77,7 @@ const toppings: ITopping[] = [
   },
 ];
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div className="container">
       <header>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 
-const Check : React.FC = ()  => {
+const Check = ()  => {
   const [checked, setChecked] = useState(false);
 
   const handleClick = () => {
